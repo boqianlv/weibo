@@ -33,13 +33,14 @@ footer {
     width: 17px;
     height: 17px;
   }
-
+}
 /* User gravatar */
 
 section.user_info {
+  text-align: center;
   padding-bottom: 10px;
   margin-top: 20px;
-  text-align: center;
+  
   .gravatar {
     float: none;
     max-width: 70px;
@@ -56,5 +57,4 @@ section.user_info {
   float: left;
   max-width: 50px;
   border-radius: 50%;
-}
 }
