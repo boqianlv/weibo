@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Status extends Model
 {
     use HasFactory;
+
+    public function user()
+    {
+        //在用户模型中。指明一个用户拥有多条微博
+        return $this->belongsTo(User::class);
+    }
 }
