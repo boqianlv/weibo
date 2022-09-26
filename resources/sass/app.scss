@@ -40,7 +40,7 @@ section.user_info {
   text-align: center;
   padding-bottom: 10px;
   margin-top: 20px;
-  
+
   .gravatar {
     float: none;
     max-width: 70px;
@@ -68,4 +68,7 @@ section.user_info {
     float: none;
     max-width: 100px;
   }
+}
+.status-delete-btn{
+  width:max-content;
 }
