@@ -9,6 +9,8 @@ class Status extends Model
 {
     use HasFactory;
 
+    protected $fillable=['content'];
+
     public function user()
     {
         //在用户模型中。指明一个用户拥有多条微博
